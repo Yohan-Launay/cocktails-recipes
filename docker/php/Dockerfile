@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y \
     software-properties-common \
     nodejs \
     npm
-RUN npm install npm@latest -g && \
+RUN npm install npm@9 -g && \
     npm install n -g && \
     npm install yarn -g && \
     n latest
